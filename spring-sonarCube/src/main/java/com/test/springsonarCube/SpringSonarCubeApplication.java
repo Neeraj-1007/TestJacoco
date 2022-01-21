@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringSonarCubeApplication {
 
 	public static void main(String[] args) {
+		System.out.println("use command clean org:jacoco:jacoco-maven-plugin:prepare-agent install");
 		SpringApplication.run(SpringSonarCubeApplication.class, args);
 	}
 
