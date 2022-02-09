@@ -7,6 +7,8 @@ public class Book {
 
 	private String page;
 
+	private String auther;
+
 	public int getId() {
 		return id;
 	}
